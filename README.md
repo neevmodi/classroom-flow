@@ -51,3 +51,6 @@ Then open the local URL printed by Vite.
 ## Stack
 
 Vanilla JavaScript, CSS, and [Vite](https://vite.dev/).
+
+## Netlify website
+https://classroom-flow.netlify.app/
