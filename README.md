@@ -5,7 +5,9 @@ A clean, responsive learning planner for individuals, with a separate university
 ## What’s included
 
 - Personal learning space that works immediately without an account
-- Create tasks, set target dates, mark work complete, and retain progress in the browser
+- Start with an empty personal space; create tasks, set target dates, and mark work complete
+- Personal progress report calculated from the learner’s own tasks
+- Personal schedule with a calendar view for study sessions, reminders, and deadlines
 - University workspace trial with student and teacher dashboards (sample data only)
 - Separate student and teacher interfaces (use the role switch in the app)
 - Assignment cards with progress, status, and due dates
