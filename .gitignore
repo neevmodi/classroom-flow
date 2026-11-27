@@ -1,0 +1,10 @@
+# Dependencies are installed by Netlify from package-lock.json.
+node_modules/
+
+# Production build output is generated during deployment.
+dist/
+
+# Local environment values must not be committed.
+.env
+.env.*
+!.env.example
