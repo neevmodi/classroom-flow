@@ -1,11 +1,12 @@
 # Classroom Flow
 
-A clean, responsive student and teacher dashboard for organising classwork, sharing resources, monitoring progress, and celebrating learning momentum.
+A clean, responsive learning planner for individuals, with a separate university workspace trial to demonstrate how a future multi-user version could work.
 
 ## What’s included
 
-- College workspace entry flow: a learner/teacher joins a selected college demo workspace
-- Independent learner entry flow for people tracking their own goals and progress
+- Personal learning space that works immediately without an account
+- Create tasks, set target dates, mark work complete, and retain progress in the browser
+- University workspace trial with student and teacher dashboards (sample data only)
 - Separate student and teacher interfaces (use the role switch in the app)
 - Assignment cards with progress, status, and due dates
 - Teacher assignment creation flow
@@ -13,9 +14,15 @@ A clean, responsive student and teacher dashboard for organising classwork, shar
 - Teacher activity feed, class completion data, student overview, and review queue
 - Responsive browser UI with no backend required for the demo
 
-## Important: demo vs. real college privacy
+## What works today
 
-The current app is a front-end demonstration. It visually separates a selected college workspace from an independent learner space, but it does **not** authenticate people or protect real student data yet. Do not collect or upload real student information in this version.
+The personal learning space is local-first: tasks and completion progress are saved in the browser on the device being used. This means individuals can begin using it as soon as it is deployed, with no sign-up or database required.
+
+Because it uses browser storage, clearing browser data or changing devices will not carry the plan across. Cloud accounts and sync are a future enhancement.
+
+## University trial vs. real college privacy
+
+The university workspace is a front-end demonstration. It does **not** authenticate people or protect real student data yet. Do not collect or upload real student information in this version.
 
 To make it safe for real colleges, connect the app to Supabase (or Firebase) and add:
 
